@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1B31C0122B22B9B004EDA0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C0022B22B9B004EDA0C /* AppDelegate.m */; };
+		A1B31C0422B22B9B004EDA0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C0322B22B9B004EDA0C /* ViewController.m */; };
+		A1B31C0722B22B9B004EDA0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B31C0522B22B9B004EDA0C /* Main.storyboard */; };
+		A1B31C0A22B22B9B004EDA0C /* ADHelloWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C0822B22B9B004EDA0C /* ADHelloWorld.xcdatamodeld */; };
+		A1B31C0C22B22B9C004EDA0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B31C0B22B22B9C004EDA0C /* Assets.xcassets */; };
+		A1B31C0F22B22B9C004EDA0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B31C0D22B22B9C004EDA0C /* LaunchScreen.storyboard */; };
+		A1B31C1222B22B9C004EDA0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C1122B22B9C004EDA0C /* main.m */; };
+		A1B31C1C22B22B9C004EDA0C /* ADHelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C1B22B22B9C004EDA0C /* ADHelloWorldTests.m */; };
+		A1B31C2722B22B9D004EDA0C /* ADHelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C2622B22B9D004EDA0C /* ADHelloWorldUITests.m */; };
+		A1B31C3722B22C07004EDA0C /* ADHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C3622B22C07004EDA0C /* ADHelloWorld.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1B31C1822B22B9C004EDA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B31BF422B22B9B004EDA0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B31BFB22B22B9B004EDA0C;
+			remoteInfo = ADHelloWorld;
+		};
+		A1B31C2322B22B9D004EDA0C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B31BF422B22B9B004EDA0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B31BFB22B22B9B004EDA0C;
+			remoteInfo = ADHelloWorld;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1B31BFC22B22B9B004EDA0C /* ADHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B31BFF22B22B9B004EDA0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1B31C0022B22B9B004EDA0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1B31C0222B22B9B004EDA0C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1B31C0322B22B9B004EDA0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1B31C0622B22B9B004EDA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1B31C0922B22B9B004EDA0C /* ADHelloWorld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ADHelloWorld.xcdatamodel; sourceTree = "<group>"; };
+		A1B31C0B22B22B9C004EDA0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B31C0E22B22B9C004EDA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1B31C1022B22B9C004EDA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B31C1122B22B9C004EDA0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1B31C1722B22B9C004EDA0C /* ADHelloWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADHelloWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B31C1B22B22B9C004EDA0C /* ADHelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADHelloWorldTests.m; sourceTree = "<group>"; };
+		A1B31C1D22B22B9C004EDA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B31C2222B22B9D004EDA0C /* ADHelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADHelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B31C2622B22B9D004EDA0C /* ADHelloWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADHelloWorldUITests.m; sourceTree = "<group>"; };
+		A1B31C2822B22B9D004EDA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B31C3522B22C07004EDA0C /* ADHelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADHelloWorld.h; sourceTree = "<group>"; };
+		A1B31C3622B22C07004EDA0C /* ADHelloWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADHelloWorld.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B31BF922B22B9B004EDA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B31C1422B22B9C004EDA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B31C1F22B22B9C004EDA0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B31BF322B22B9B004EDA0C = {
+			isa = PBXGroup;
+			children = (
+				A1B31BFE22B22B9B004EDA0C /* ADHelloWorld */,
+				A1B31C1A22B22B9C004EDA0C /* ADHelloWorldTests */,
+				A1B31C2522B22B9D004EDA0C /* ADHelloWorldUITests */,
+				A1B31BFD22B22B9B004EDA0C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B31BFD22B22B9B004EDA0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B31BFC22B22B9B004EDA0C /* ADHelloWorld.app */,
+				A1B31C1722B22B9C004EDA0C /* ADHelloWorldTests.xctest */,
+				A1B31C2222B22B9D004EDA0C /* ADHelloWorldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B31BFE22B22B9B004EDA0C /* ADHelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				A1B31C3422B22BCB004EDA0C /* Classes */,
+				A1B31BFF22B22B9B004EDA0C /* AppDelegate.h */,
+				A1B31C0022B22B9B004EDA0C /* AppDelegate.m */,
+				A1B31C0222B22B9B004EDA0C /* ViewController.h */,
+				A1B31C0322B22B9B004EDA0C /* ViewController.m */,
+				A1B31C0522B22B9B004EDA0C /* Main.storyboard */,
+				A1B31C0B22B22B9C004EDA0C /* Assets.xcassets */,
+				A1B31C0D22B22B9C004EDA0C /* LaunchScreen.storyboard */,
+				A1B31C1022B22B9C004EDA0C /* Info.plist */,
+				A1B31C1122B22B9C004EDA0C /* main.m */,
+				A1B31C0822B22B9B004EDA0C /* ADHelloWorld.xcdatamodeld */,
+			);
+			path = ADHelloWorld;
+			sourceTree = "<group>";
+		};
+		A1B31C1A22B22B9C004EDA0C /* ADHelloWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B31C1B22B22B9C004EDA0C /* ADHelloWorldTests.m */,
+				A1B31C1D22B22B9C004EDA0C /* Info.plist */,
+			);
+			path = ADHelloWorldTests;
+			sourceTree = "<group>";
+		};
+		A1B31C2522B22B9D004EDA0C /* ADHelloWorldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1B31C2622B22B9D004EDA0C /* ADHelloWorldUITests.m */,
+				A1B31C2822B22B9D004EDA0C /* Info.plist */,
+			);
+			path = ADHelloWorldUITests;
+			sourceTree = "<group>";
+		};
+		A1B31C3422B22BCB004EDA0C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1B31C3522B22C07004EDA0C /* ADHelloWorld.h */,
+				A1B31C3622B22C07004EDA0C /* ADHelloWorld.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B31BFB22B22B9B004EDA0C /* ADHelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B31C2B22B22B9D004EDA0C /* Build configuration list for PBXNativeTarget "ADHelloWorld" */;
+			buildPhases = (
+				A1B31BF822B22B9B004EDA0C /* Sources */,
+				A1B31BF922B22B9B004EDA0C /* Frameworks */,
+				A1B31BFA22B22B9B004EDA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADHelloWorld;
+			productName = ADHelloWorld;
+			productReference = A1B31BFC22B22B9B004EDA0C /* ADHelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B31C1622B22B9C004EDA0C /* ADHelloWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B31C2E22B22B9D004EDA0C /* Build configuration list for PBXNativeTarget "ADHelloWorldTests" */;
+			buildPhases = (
+				A1B31C1322B22B9C004EDA0C /* Sources */,
+				A1B31C1422B22B9C004EDA0C /* Frameworks */,
+				A1B31C1522B22B9C004EDA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B31C1922B22B9C004EDA0C /* PBXTargetDependency */,
+			);
+			name = ADHelloWorldTests;
+			productName = ADHelloWorldTests;
+			productReference = A1B31C1722B22B9C004EDA0C /* ADHelloWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1B31C2122B22B9C004EDA0C /* ADHelloWorldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B31C3122B22B9D004EDA0C /* Build configuration list for PBXNativeTarget "ADHelloWorldUITests" */;
+			buildPhases = (
+				A1B31C1E22B22B9C004EDA0C /* Sources */,
+				A1B31C1F22B22B9C004EDA0C /* Frameworks */,
+				A1B31C2022B22B9C004EDA0C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B31C2422B22B9D004EDA0C /* PBXTargetDependency */,
+			);
+			name = ADHelloWorldUITests;
+			productName = ADHelloWorldUITests;
+			productReference = A1B31C2222B22B9D004EDA0C /* ADHelloWorldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B31BF422B22B9B004EDA0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "赵东";
+				TargetAttributes = {
+					A1B31BFB22B22B9B004EDA0C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A1B31C1622B22B9C004EDA0C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A1B31BFB22B22B9B004EDA0C;
+					};
+					A1B31C2122B22B9C004EDA0C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A1B31BFB22B22B9B004EDA0C;
+					};
+				};
+			};
+			buildConfigurationList = A1B31BF722B22B9B004EDA0C /* Build configuration list for PBXProject "ADHelloWorld" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B31BF322B22B9B004EDA0C;
+			productRefGroup = A1B31BFD22B22B9B004EDA0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B31BFB22B22B9B004EDA0C /* ADHelloWorld */,
+				A1B31C1622B22B9C004EDA0C /* ADHelloWorldTests */,
+				A1B31C2122B22B9C004EDA0C /* ADHelloWorldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B31BFA22B22B9B004EDA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B31C0F22B22B9C004EDA0C /* LaunchScreen.storyboard in Resources */,
+				A1B31C0C22B22B9C004EDA0C /* Assets.xcassets in Resources */,
+				A1B31C0722B22B9B004EDA0C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B31C1522B22B9C004EDA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B31C2022B22B9C004EDA0C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B31BF822B22B9B004EDA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B31C0422B22B9B004EDA0C /* ViewController.m in Sources */,
+				A1B31C0122B22B9B004EDA0C /* AppDelegate.m in Sources */,
+				A1B31C1222B22B9C004EDA0C /* main.m in Sources */,
+				A1B31C3722B22C07004EDA0C /* ADHelloWorld.m in Sources */,
+				A1B31C0A22B22B9B004EDA0C /* ADHelloWorld.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B31C1322B22B9C004EDA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B31C1C22B22B9C004EDA0C /* ADHelloWorldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B31C1E22B22B9C004EDA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B31C2722B22B9D004EDA0C /* ADHelloWorldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1B31C1922B22B9C004EDA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B31BFB22B22B9B004EDA0C /* ADHelloWorld */;
+			targetProxy = A1B31C1822B22B9C004EDA0C /* PBXContainerItemProxy */;
+		};
+		A1B31C2422B22B9D004EDA0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B31BFB22B22B9B004EDA0C /* ADHelloWorld */;
+			targetProxy = A1B31C2322B22B9D004EDA0C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1B31C0522B22B9B004EDA0C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B31C0622B22B9B004EDA0C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1B31C0D22B22B9C004EDA0C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B31C0E22B22B9C004EDA0C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1B31C2922B22B9D004EDA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1B31C2A22B22B9D004EDA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1B31C2C22B22B9D004EDA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LE9T34WRYN;
+				INFOPLIST_FILE = ADHelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZD.ADHelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B31C2D22B22B9D004EDA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LE9T34WRYN;
+				INFOPLIST_FILE = ADHelloWorld/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZD.ADHelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1B31C2F22B22B9D004EDA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LE9T34WRYN;
+				INFOPLIST_FILE = ADHelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZD.ADHelloWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADHelloWorld.app/ADHelloWorld";
+			};
+			name = Debug;
+		};
+		A1B31C3022B22B9D004EDA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LE9T34WRYN;
+				INFOPLIST_FILE = ADHelloWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZD.ADHelloWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADHelloWorld.app/ADHelloWorld";
+			};
+			name = Release;
+		};
+		A1B31C3222B22B9D004EDA0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LE9T34WRYN;
+				INFOPLIST_FILE = ADHelloWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZD.ADHelloWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ADHelloWorld;
+			};
+			name = Debug;
+		};
+		A1B31C3322B22B9D004EDA0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LE9T34WRYN;
+				INFOPLIST_FILE = ADHelloWorldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ZD.ADHelloWorldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ADHelloWorld;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B31BF722B22B9B004EDA0C /* Build configuration list for PBXProject "ADHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B31C2922B22B9D004EDA0C /* Debug */,
+				A1B31C2A22B22B9D004EDA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B31C2B22B22B9D004EDA0C /* Build configuration list for PBXNativeTarget "ADHelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B31C2C22B22B9D004EDA0C /* Debug */,
+				A1B31C2D22B22B9D004EDA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B31C2E22B22B9D004EDA0C /* Build configuration list for PBXNativeTarget "ADHelloWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B31C2F22B22B9D004EDA0C /* Debug */,
+				A1B31C3022B22B9D004EDA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B31C3122B22B9D004EDA0C /* Build configuration list for PBXNativeTarget "ADHelloWorldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B31C3222B22B9D004EDA0C /* Debug */,
+				A1B31C3322B22B9D004EDA0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1B31C0822B22B9B004EDA0C /* ADHelloWorld.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1B31C0922B22B9B004EDA0C /* ADHelloWorld.xcdatamodel */,
+			);
+			currentVersion = A1B31C0922B22B9B004EDA0C /* ADHelloWorld.xcdatamodel */;
+			path = ADHelloWorld.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1B31BF422B22B9B004EDA0C /* Project object */;
+}

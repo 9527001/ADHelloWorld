@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "ADHelloWorld"
-s.version      = "0.0.1"
+s.version      = "0.0.3"
 s.summary      = "一个建立pod仓库的简单demo."
 s.description  = <<-DESC
 这只是一个建立pod仓库的简单demo，并没有实际的意思。教学使用。

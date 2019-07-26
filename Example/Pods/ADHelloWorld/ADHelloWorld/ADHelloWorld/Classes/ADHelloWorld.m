@@ -8,6 +8,16 @@
 
 #import "ADHelloWorld.h"
 
+#import <Bugly/Bugly.h>
+
 @implementation ADHelloWorld
+
+- (instancetype)init {
+    if (self =  [super init]) {
+        [Bugly startWithAppId:@"123123"];
+    }
+    
+    return self;
+}
 
 @end

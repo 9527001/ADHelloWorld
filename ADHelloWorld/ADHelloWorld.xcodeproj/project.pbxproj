@@ -18,6 +18,7 @@
 		A1B31C1C22B22B9C004EDA0C /* ADHelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C1B22B22B9C004EDA0C /* ADHelloWorldTests.m */; };
 		A1B31C2722B22B9D004EDA0C /* ADHelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C2622B22B9D004EDA0C /* ADHelloWorldUITests.m */; };
 		A1B31C3722B22C07004EDA0C /* ADHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C3622B22C07004EDA0C /* ADHelloWorld.m */; };
+		A1BEFD0E22EEBE93005E0D39 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BEFD0D22EEBE93005E0D39 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		A1B31C2822B22B9D004EDA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B31C3522B22C07004EDA0C /* ADHelloWorld.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADHelloWorld.h; sourceTree = "<group>"; };
 		A1B31C3622B22C07004EDA0C /* ADHelloWorld.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADHelloWorld.m; sourceTree = "<group>"; };
+		A1BEFD0C22EEBE93005E0D39 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		A1BEFD0D22EEBE93005E0D39 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +97,6 @@
 				2CCD1C6820242CD69972C1FB /* Pods-ADHelloWorld.debug.xcconfig */,
 				2F324FA8EF1A1A13F61D79AF /* Pods-ADHelloWorld.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -169,6 +171,8 @@
 			children = (
 				A1B31C3522B22C07004EDA0C /* ADHelloWorld.h */,
 				A1B31C3622B22C07004EDA0C /* ADHelloWorld.m */,
+				A1BEFD0C22EEBE93005E0D39 /* TestViewController.h */,
+				A1BEFD0D22EEBE93005E0D39 /* TestViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -329,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BEFD0E22EEBE93005E0D39 /* TestViewController.m in Sources */,
 				A1B31C0422B22B9B004EDA0C /* ViewController.m in Sources */,
 				A1B31C0122B22B9B004EDA0C /* AppDelegate.m in Sources */,
 				A1B31C1222B22B9C004EDA0C /* main.m in Sources */,

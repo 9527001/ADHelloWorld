@@ -98,11 +98,13 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/ADHelloWorld/ADHelloWorld/ADHelloWorld/Assets.xcassets/Contents.json"
+  install_resource "${PODS_ROOT}/ADHelloWorld/ADHelloWorld/ADHelloWorld/Assets.xcassets/4-1.imageset"
   install_resource "${PODS_ROOT}/ADHelloWorld/ADHelloWorld/ADHelloWorld/Assets.xcassets/AppIcon.appiconset"
   install_resource "${PODS_ROOT}/ADHelloWorld/ADHelloWorld/ADHelloWorld/Assets.xcassets/吴瑞红.imageset"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/ADHelloWorld/ADHelloWorld/ADHelloWorld/Assets.xcassets/Contents.json"
+  install_resource "${PODS_ROOT}/ADHelloWorld/ADHelloWorld/ADHelloWorld/Assets.xcassets/4-1.imageset"
   install_resource "${PODS_ROOT}/ADHelloWorld/ADHelloWorld/ADHelloWorld/Assets.xcassets/AppIcon.appiconset"
   install_resource "${PODS_ROOT}/ADHelloWorld/ADHelloWorld/ADHelloWorld/Assets.xcassets/吴瑞红.imageset"
 fi

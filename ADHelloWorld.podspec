@@ -22,7 +22,7 @@ s.author             = { "Adong" => "1508574114@qq.com" }
 s.platform     = :ios, "8.0"
 s.source       = { :git => "https://github.com/9527001/ADHelloWorld.git", :tag => s.version }
 s.source_files  = "Classes", "ADHelloWorld/ADHelloWorld/Classes/**/*.{h,m}"
-s.resources = "ADHelloWorld/ADHelloWorld/Assets.xcassets/*"
+s.resources = "Resources","ADHelloWorld/ADHelloWorld/Assets.xcassets/*"
 s.dependency 'Bugly', '2.5.0'
 s.requires_arc = true
 

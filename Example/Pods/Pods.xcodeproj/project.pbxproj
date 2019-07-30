@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		4A68CFD979D413A619DF631BB121D98F /* Bugly */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 47C574FA60098B6A486D453FF2E0E1B9 /* Build configuration list for PBXAggregateTarget "Bugly" */;
+			buildConfigurationList = 469B393A2B280DA47663CBF002F08A74 /* Build configuration list for PBXAggregateTarget "Bugly" */;
 			buildPhases = (
 			);
 			dependencies = (
@@ -19,10 +19,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0CDA9370888F4F65A4CF6E982A99F7AA /* ADHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F396B55FE701A675082B6803825E997 /* ADHelloWorld.m */; };
+		18E0930D13810FC4E0929657B0EBBB74 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAED25BBB8237264FCE8E1645B1D0C63 /* TestViewController.m */; };
 		2D393DD4FC86470E1CF1F18ED743E569 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95AC8E81FADDC12ACBB77771D71159 /* Pods-Example-dummy.m */; };
-		887E3BCC05A025F79E2AD644D8441094 /* ADHelloWorld-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA7161395A2E2D2A081F2CCD97CDF40 /* ADHelloWorld-dummy.m */; };
-		976E698D3139CEFA652C7FE4AC4A9D7B /* ADHelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = FE9AB0874243E796E794CD87E8DC0DFB /* ADHelloWorld.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37DBC19112A4D1A9A8769B6C9247FF9D /* ADHelloWorld-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BC5F44D62AF61870C969F93FDC1A59 /* ADHelloWorld-dummy.m */; };
+		8AB28E9FE305EBB5B19ACF0D7380C213 /* ADHelloWorld.m in Sources */ = {isa = PBXBuildFile; fileRef = E83C83A98D25D40244289834C9019402 /* ADHelloWorld.m */; };
+		C48D7A2CA87FBF9279FB94902C582EA1 /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C6162EEE05241F5C9FF35D72EF3EBB7B /* TestViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED8C1D5C9DB5992A4718F66DD58E186D /* ADHelloWorld.h in Headers */ = {isa = PBXBuildFile; fileRef = 03BDBE853D3250E78CEC5EAB5208B4B9 /* ADHelloWorld.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,7 @@
 			remoteGlobalIDString = 4A68CFD979D413A619DF631BB121D98F;
 			remoteInfo = Bugly;
 		};
-		92C2130D91F5B9B2C5BD271E39BDF53B /* PBXContainerItemProxy */ = {
+		95AED5BC277B8A3D603E61BB2AAA6179 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -50,33 +52,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03BDBE853D3250E78CEC5EAB5208B4B9 /* ADHelloWorld.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADHelloWorld.h; path = ADHelloWorld/ADHelloWorld/Classes/ADHelloWorld.h; sourceTree = "<group>"; };
 		0B3D4526A87AB909E1460D455A906714 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
 		14E13411513AB82EEE53A5C47F3FB5B4 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		16F50532F4D3F51644AA57443A41C8DC /* ADHelloWorld.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADHelloWorld.xcconfig; sourceTree = "<group>"; };
 		1C1D89FD342FD3F476B4A783BE95D5EE /* libADHelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libADHelloWorld.a; path = libADHelloWorld.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* libPods-Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Example.a"; path = "libPods-Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F396B55FE701A675082B6803825E997 /* ADHelloWorld.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADHelloWorld.m; path = ADHelloWorld/ADHelloWorld/Classes/ADHelloWorld.m; sourceTree = "<group>"; };
+		29BC5F44D62AF61870C969F93FDC1A59 /* ADHelloWorld-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ADHelloWorld-dummy.m"; sourceTree = "<group>"; };
 		2F95AC8E81FADDC12ACBB77771D71159 /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
 		41A1D5CDB9D9BDFEA3C21DF74BC7EC42 /* Pods-Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-resources.sh"; sourceTree = "<group>"; };
-		5322F21A5DF3C8BC63689726B2E394EE /* ADHelloWorld.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADHelloWorld.xcconfig; sourceTree = "<group>"; };
-		5373B15E7C59EE8A33F07A15F0066DA0 /* ADHelloWorld-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADHelloWorld-prefix.pch"; sourceTree = "<group>"; };
-		7BCE56C1834FE4E3013B758AC593F936 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A14D7E690A43A6F8057F8476B99E892C /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BDA93D02E97E7F5C4737670F18E2AD69 /* Bugly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bugly.xcconfig; sourceTree = "<group>"; };
-		DBA7161395A2E2D2A081F2CCD97CDF40 /* ADHelloWorld-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ADHelloWorld-dummy.m"; sourceTree = "<group>"; };
+		AAB63B0DA168D8CDABBF90B7EB2B8B65 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
+		B0510301053C7062789AC6DE878EB28F /* ADHelloWorld-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ADHelloWorld-prefix.pch"; sourceTree = "<group>"; };
+		B39FA179EE425ACD2181CF2F50087389 /* Bugly.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bugly.xcconfig; sourceTree = "<group>"; };
+		C6162EEE05241F5C9FF35D72EF3EBB7B /* TestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestViewController.h; path = ADHelloWorld/ADHelloWorld/Classes/TestViewController.h; sourceTree = "<group>"; };
 		DBCC313EE0A9858707A61209D3B20E34 /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE9AB0874243E796E794CD87E8DC0DFB /* ADHelloWorld.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADHelloWorld.h; path = ADHelloWorld/ADHelloWorld/Classes/ADHelloWorld.h; sourceTree = "<group>"; };
+		E83C83A98D25D40244289834C9019402 /* ADHelloWorld.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADHelloWorld.m; path = ADHelloWorld/ADHelloWorld/Classes/ADHelloWorld.m; sourceTree = "<group>"; };
+		FAED25BBB8237264FCE8E1645B1D0C63 /* TestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestViewController.m; path = ADHelloWorld/ADHelloWorld/Classes/TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01B5B044D17613BD27669064F4258785 /* Frameworks */ = {
+		C758D8D57A4DBEB82D6A10627B3B15E2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C758D8D57A4DBEB82D6A10627B3B15E2 /* Frameworks */ = {
+		FADAA550CCCAAF556F6F83CD16B46C58 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,25 +90,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		086B88B0C38D5867D89C3905C6546FA2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A46209C5CC4B61C76F84837A4D55D965 /* ADHelloWorld */,
-				2EEB8A1C1E52AB12B115CA5E87010719 /* Bugly */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2EEB8A1C1E52AB12B115CA5E87010719 /* Bugly */ = {
-			isa = PBXGroup;
-			children = (
-				98738524DFCEF8785E5D77A6261ED30C /* Frameworks */,
-				F1A7F094F01C0890262F9E2A2B218E99 /* Support Files */,
-			);
-			name = Bugly;
-			path = Bugly;
-			sourceTree = "<group>";
-		};
 		3255756C513CE769C218769B6FCABD1C /* Pods-Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,23 +113,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		98738524DFCEF8785E5D77A6261ED30C /* Frameworks */ = {
+		617E93BBCCC5D118D1D834A72904D31F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7BCE56C1834FE4E3013B758AC593F936 /* Bugly.framework */,
+				FCCBCD6CAAEC195116CB5C962E43D130 /* ADHelloWorld */,
+				7DDCACA418E8C914CA6D27044FDB3642 /* Bugly */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		A46209C5CC4B61C76F84837A4D55D965 /* ADHelloWorld */ = {
+		7DDCACA418E8C914CA6D27044FDB3642 /* Bugly */ = {
 			isa = PBXGroup;
 			children = (
-				FE9AB0874243E796E794CD87E8DC0DFB /* ADHelloWorld.h */,
-				2F396B55FE701A675082B6803825E997 /* ADHelloWorld.m */,
-				D34178A85A2C80D9B803F768C7154F70 /* Support Files */,
+				8E1C22B35A49778EB024BAC95BB6D9BB /* Frameworks */,
+				D2C89038C105BE1ACB580EB61684B067 /* Support Files */,
 			);
-			name = ADHelloWorld;
-			path = ADHelloWorld;
+			name = Bugly;
+			path = Bugly;
+			sourceTree = "<group>";
+		};
+		8517EC1BE12EDAC7602C45B8933321F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				16F50532F4D3F51644AA57443A41C8DC /* ADHelloWorld.xcconfig */,
+				29BC5F44D62AF61870C969F93FDC1A59 /* ADHelloWorld-dummy.m */,
+				B0510301053C7062789AC6DE878EB28F /* ADHelloWorld-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ADHelloWorld";
+			sourceTree = "<group>";
+		};
+		8E1C22B35A49778EB024BAC95BB6D9BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAB63B0DA168D8CDABBF90B7EB2B8B65 /* Bugly.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B70185EFA8F621C86D205EA5AD41BA11 /* Targets Support Files */ = {
@@ -160,21 +164,19 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				086B88B0C38D5867D89C3905C6546FA2 /* Pods */,
+				617E93BBCCC5D118D1D834A72904D31F /* Pods */,
 				535D8101003716728DCE24C1C013D798 /* Products */,
 				B70185EFA8F621C86D205EA5AD41BA11 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D34178A85A2C80D9B803F768C7154F70 /* Support Files */ = {
+		D2C89038C105BE1ACB580EB61684B067 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5322F21A5DF3C8BC63689726B2E394EE /* ADHelloWorld.xcconfig */,
-				DBA7161395A2E2D2A081F2CCD97CDF40 /* ADHelloWorld-dummy.m */,
-				5373B15E7C59EE8A33F07A15F0066DA0 /* ADHelloWorld-prefix.pch */,
+				B39FA179EE425ACD2181CF2F50087389 /* Bugly.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/ADHelloWorld";
+			path = "../Target Support Files/Bugly";
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -184,13 +186,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F1A7F094F01C0890262F9E2A2B218E99 /* Support Files */ = {
+		FCCBCD6CAAEC195116CB5C962E43D130 /* ADHelloWorld */ = {
 			isa = PBXGroup;
 			children = (
-				BDA93D02E97E7F5C4737670F18E2AD69 /* Bugly.xcconfig */,
+				03BDBE853D3250E78CEC5EAB5208B4B9 /* ADHelloWorld.h */,
+				E83C83A98D25D40244289834C9019402 /* ADHelloWorld.m */,
+				C6162EEE05241F5C9FF35D72EF3EBB7B /* TestViewController.h */,
+				FAED25BBB8237264FCE8E1645B1D0C63 /* TestViewController.m */,
+				8517EC1BE12EDAC7602C45B8933321F0 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Bugly";
+			name = ADHelloWorld;
+			path = ADHelloWorld;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,11 +209,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0B173CA749F0B769879BEB865487501 /* Headers */ = {
+		9C669A2BBD4A5E4DE1BD6DC6025BD4FB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				976E698D3139CEFA652C7FE4AC4A9D7B /* ADHelloWorld.h in Headers */,
+				ED8C1D5C9DB5992A4718F66DD58E186D /* ADHelloWorld.h in Headers */,
+				C48D7A2CA87FBF9279FB94902C582EA1 /* TestViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,16 +242,16 @@
 		};
 		0DB316BCF1F9C3D5342E2A31C7DAC3BD /* ADHelloWorld */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F0E8B59580344845BABBADB9A8E5CAF4 /* Build configuration list for PBXNativeTarget "ADHelloWorld" */;
+			buildConfigurationList = 3E88604BD18452C923565575B2B20361 /* Build configuration list for PBXNativeTarget "ADHelloWorld" */;
 			buildPhases = (
-				F0B173CA749F0B769879BEB865487501 /* Headers */,
-				496436F33D67F5A73167A267468493ED /* Sources */,
-				01B5B044D17613BD27669064F4258785 /* Frameworks */,
+				9C669A2BBD4A5E4DE1BD6DC6025BD4FB /* Headers */,
+				080DCB30EE62FFF5F539923C208C58D3 /* Sources */,
+				FADAA550CCCAAF556F6F83CD16B46C58 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E72BA0F00BAEFCEDC95E8A3F42F8D4EB /* PBXTargetDependency */,
+				4FC0D6E54F3D1B85B1DECE8BB87A856F /* PBXTargetDependency */,
 			);
 			name = ADHelloWorld;
 			productName = ADHelloWorld;
@@ -280,12 +287,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		496436F33D67F5A73167A267468493ED /* Sources */ = {
+		080DCB30EE62FFF5F539923C208C58D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				887E3BCC05A025F79E2AD644D8441094 /* ADHelloWorld-dummy.m in Sources */,
-				0CDA9370888F4F65A4CF6E982A99F7AA /* ADHelloWorld.m in Sources */,
+				37DBC19112A4D1A9A8769B6C9247FF9D /* ADHelloWorld-dummy.m in Sources */,
+				8AB28E9FE305EBB5B19ACF0D7380C213 /* ADHelloWorld.m in Sources */,
+				18E0930D13810FC4E0929657B0EBBB74 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,17 +314,17 @@
 			target = 0DB316BCF1F9C3D5342E2A31C7DAC3BD /* ADHelloWorld */;
 			targetProxy = F554B3422D9289E0BF435B43A4656579 /* PBXContainerItemProxy */;
 		};
+		4FC0D6E54F3D1B85B1DECE8BB87A856F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bugly;
+			target = 4A68CFD979D413A619DF631BB121D98F /* Bugly */;
+			targetProxy = 95AED5BC277B8A3D603E61BB2AAA6179 /* PBXContainerItemProxy */;
+		};
 		AE3EBEE5CB900BF2FA95522EA7D3FE0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Bugly;
 			target = 4A68CFD979D413A619DF631BB121D98F /* Bugly */;
 			targetProxy = 20F85479D6EA0AFF64D73A4957FD5DAE /* PBXContainerItemProxy */;
-		};
-		E72BA0F00BAEFCEDC95E8A3F42F8D4EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Bugly;
-			target = 4A68CFD979D413A619DF631BB121D98F /* Bugly */;
-			targetProxy = 92C2130D91F5B9B2C5BD271E39BDF53B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -343,32 +351,9 @@
 			};
 			name = Release;
 		};
-		2A322A4B960D724F753F7F296C6167A0 /* Debug */ = {
+		8D9E6907CC2505FE8A0CA8D53E58EF1D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5322F21A5DF3C8BC63689726B2E394EE /* ADHelloWorld.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ADHelloWorld/ADHelloWorld-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ADHelloWorld;
-				PRODUCT_NAME = ADHelloWorld;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7DC517D31354C8192EEF47E5BE4C1E52 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDA93D02E97E7F5C4737670F18E2AD69 /* Bugly.xcconfig */;
+			baseConfigurationReference = B39FA179EE425ACD2181CF2F50087389 /* Bugly.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -379,33 +364,8 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
-		};
-		7FDC60C61C7935F1F08EAFF678F83D43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5322F21A5DF3C8BC63689726B2E394EE /* ADHelloWorld.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ADHelloWorld/ADHelloWorld-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ADHelloWorld;
-				PRODUCT_NAME = ADHelloWorld;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
+			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -531,9 +491,9 @@
 			};
 			name = Debug;
 		};
-		D6A7EA3EACA3158416E4C41E2570CC17 /* Debug */ = {
+		919F529E1730B5E348EFC42B9748FBF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BDA93D02E97E7F5C4737670F18E2AD69 /* Bugly.xcconfig */;
+			baseConfigurationReference = B39FA179EE425ACD2181CF2F50087389 /* Bugly.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -544,8 +504,56 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		979ADB590A25BECA27EB41E049340136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F50532F4D3F51644AA57443A41C8DC /* ADHelloWorld.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ADHelloWorld/ADHelloWorld-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ADHelloWorld;
+				PRODUCT_NAME = ADHelloWorld;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		D13D295994BF8BEEC8254A41815F9EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F50532F4D3F51644AA57443A41C8DC /* ADHelloWorld.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ADHelloWorld/ADHelloWorld-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ADHelloWorld;
+				PRODUCT_NAME = ADHelloWorld;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		DB6C265E34245E9D8581597E5AD87557 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -571,11 +579,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		47C574FA60098B6A486D453FF2E0E1B9 /* Build configuration list for PBXAggregateTarget "Bugly" */ = {
+		3E88604BD18452C923565575B2B20361 /* Build configuration list for PBXNativeTarget "ADHelloWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6A7EA3EACA3158416E4C41E2570CC17 /* Debug */,
-				7DC517D31354C8192EEF47E5BE4C1E52 /* Release */,
+				979ADB590A25BECA27EB41E049340136 /* Debug */,
+				D13D295994BF8BEEC8254A41815F9EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		469B393A2B280DA47663CBF002F08A74 /* Build configuration list for PBXAggregateTarget "Bugly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D9E6907CC2505FE8A0CA8D53E58EF1D /* Debug */,
+				919F529E1730B5E348EFC42B9748FBF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -594,15 +611,6 @@
 			buildConfigurations = (
 				DB6C265E34245E9D8581597E5AD87557 /* Debug */,
 				1FF1CC76ED6A79B307D9CE646B1623D6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0E8B59580344845BABBADB9A8E5CAF4 /* Build configuration list for PBXNativeTarget "ADHelloWorld" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2A322A4B960D724F753F7F296C6167A0 /* Debug */,
-				7FDC60C61C7935F1F08EAFF678F83D43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

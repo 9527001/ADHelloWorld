@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1C7AB9FEAFBB1959BFDEC8E4 /* libPods-ADHelloWorld.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61099AD571600C47945F8449 /* libPods-ADHelloWorld.a */; };
+		A191B66322EFF54D008F912D /* ADHelloWorld.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A191B66222EFF54D008F912D /* ADHelloWorld.bundle */; };
 		A1B31C0122B22B9B004EDA0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C0022B22B9B004EDA0C /* AppDelegate.m */; };
 		A1B31C0422B22B9B004EDA0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C0322B22B9B004EDA0C /* ViewController.m */; };
 		A1B31C0722B22B9B004EDA0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B31C0522B22B9B004EDA0C /* Main.storyboard */; };
 		A1B31C0A22B22B9B004EDA0C /* ADHelloWorld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C0822B22B9B004EDA0C /* ADHelloWorld.xcdatamodeld */; };
-		A1B31C0C22B22B9C004EDA0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B31C0B22B22B9C004EDA0C /* Assets.xcassets */; };
 		A1B31C0F22B22B9C004EDA0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B31C0D22B22B9C004EDA0C /* LaunchScreen.storyboard */; };
 		A1B31C1222B22B9C004EDA0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C1122B22B9C004EDA0C /* main.m */; };
 		A1B31C1C22B22B9C004EDA0C /* ADHelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B31C1B22B22B9C004EDA0C /* ADHelloWorldTests.m */; };
@@ -42,6 +42,8 @@
 		2CCD1C6820242CD69972C1FB /* Pods-ADHelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADHelloWorld.debug.xcconfig"; path = "Target Support Files/Pods-ADHelloWorld/Pods-ADHelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		2F324FA8EF1A1A13F61D79AF /* Pods-ADHelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADHelloWorld.release.xcconfig"; path = "Target Support Files/Pods-ADHelloWorld/Pods-ADHelloWorld.release.xcconfig"; sourceTree = "<group>"; };
 		61099AD571600C47945F8449 /* libPods-ADHelloWorld.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ADHelloWorld.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A191B66222EFF54D008F912D /* ADHelloWorld.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ADHelloWorld.bundle; sourceTree = "<group>"; };
+		A191B66422EFF64E008F912D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B31BFC22B22B9B004EDA0C /* ADHelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADHelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B31BFF22B22B9B004EDA0C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1B31C0022B22B9B004EDA0C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,7 +51,6 @@
 		A1B31C0322B22B9B004EDA0C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A1B31C0622B22B9B004EDA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1B31C0922B22B9B004EDA0C /* ADHelloWorld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ADHelloWorld.xcdatamodel; sourceTree = "<group>"; };
-		A1B31C0B22B22B9C004EDA0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1B31C0E22B22B9C004EDA0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1B31C1022B22B9C004EDA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B31C1122B22B9C004EDA0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -138,8 +139,9 @@
 				A1B31C0022B22B9B004EDA0C /* AppDelegate.m */,
 				A1B31C0222B22B9B004EDA0C /* ViewController.h */,
 				A1B31C0322B22B9B004EDA0C /* ViewController.m */,
+				A191B66422EFF64E008F912D /* Assets.xcassets */,
 				A1B31C0522B22B9B004EDA0C /* Main.storyboard */,
-				A1B31C0B22B22B9C004EDA0C /* Assets.xcassets */,
+				A191B66222EFF54D008F912D /* ADHelloWorld.bundle */,
 				A1B31C0D22B22B9C004EDA0C /* LaunchScreen.storyboard */,
 				A1B31C1022B22B9C004EDA0C /* Info.plist */,
 				A1B31C1122B22B9C004EDA0C /* main.m */,
@@ -281,8 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A191B66322EFF54D008F912D /* ADHelloWorld.bundle in Resources */,
 				A1B31C0F22B22B9C004EDA0C /* LaunchScreen.storyboard in Resources */,
-				A1B31C0C22B22B9C004EDA0C /* Assets.xcassets in Resources */,
 				A1B31C0722B22B9B004EDA0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

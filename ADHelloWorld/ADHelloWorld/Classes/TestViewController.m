@@ -20,7 +20,9 @@
     UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(100, 100, 200, 200);
     [self.view addSubview:button];
-    [button setImage:[UIImage imageNamed:@"4-1"] forState:UIControlStateNormal];
+#define MJRefreshSrcName(file) [@"ADHelloWorld.bundle" stringByAppendingPathComponent:file]
+
+    [button setImage:[UIImage imageNamed:MJRefreshSrcName(@"4-1.png")] forState:UIControlStateNormal];
     self.view.backgroundColor = [UIColor lightGrayColor];
     self.view.backgroundColor = [UIColor greenColor];
 }

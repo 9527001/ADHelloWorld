@@ -9,12 +9,13 @@
 Pod::Spec.new do |s|
 
 s.name         = "ADHelloWorld"
-s.version      = "0.0.6"
+s.version      = "0.0.7"
 s.summary      = "一个建立pod仓库的简单demo."
 s.description  = <<-DESC
 此版本包含第三方库
 添加资源文件
 添加测试控制器 方便测试
+添加Resources
 DESC
 s.homepage     = "https://github.com/9527001/ADHelloWorld"
 s.license      = { :type => "MIT", :file => "LICENSE" }
